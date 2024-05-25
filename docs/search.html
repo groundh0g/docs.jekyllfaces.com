@@ -1,0 +1,45 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex"><meta name="built-on" content="2024-05-25T09:26:36.95366"><title>Search | JekyllFaces Documentation</title><script type="application/json" id="virtual-toc-data">[{"id":"usage","level":0,"title":"Usage","anchor":"#usage"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b259/app.css" rel="stylesheet"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Search | JekyllFaces Documentation"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="JekyllFaces Documentation Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/search.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Search | JekyllFaces Documentation"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/search.html#webpage",
+    "url": "writerside-documentation/search.html",
+    "name": "Search | JekyllFaces Documentation",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "JekyllFaces Documentation Help"
+}</script><!-- End Schema.org --></head><body data-id="search" data-main-title="Search" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs="_features.md|Features"><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>JekyllFaces Documentation  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="search" id="search.md">Search</h1><p id="-8cbs3n_20416">If you want search for your Jekyll site, you'll have to roll your own. JekyllFaces provides support for searching your site's content out of the box.</p><section class="chapter"><h2 id="usage" data-toc="usage">Usage</h2><p id="-8cbs3n_20417">In your site configuration, there is an entry for every supported searchable content type. You can enable searching across all content with a <code class="code" id="-8cbs3n_20418">scope: all</code> entry, or use more granular settings.</p><div class="table-wrapper"><table class="wide" id="-8cbs3n_20419"><thead><tr class="ijRowHead" id="-8cbs3n_20420"><th id="-8cbs3n_20421"><p>Target</p></th><th id="-8cbs3n_20422"><p>Allowed Values</p></th><th id="-8cbs3n_20423"><p>Description</p></th></tr></thead><tbody><tr id="-8cbs3n_20424"><td id="-8cbs3n_20425"><p><span class="control" id="-8cbs3n_20426">scope</span></p></td><td id="-8cbs3n_20427"><p><span class="control" id="-8cbs3n_20428">all / none / mixed</span></p></td><td id="-8cbs3n_20429"><p><span class="control" id="-8cbs3n_20430">full search, no search, or use granular settings</span></p></td></tr><tr id="-8cbs3n_20431"><td id="-8cbs3n_20432"><p>posts</p></td><td id="-8cbs3n_20433"><p>false / full / excerpt</p></td><td id="-8cbs3n_20434"><p>post content</p></td></tr><tr id="-8cbs3n_20435"><td id="-8cbs3n_20436"><p>pages</p></td><td id="-8cbs3n_20437"><p>false / full / excerpt</p></td><td id="-8cbs3n_20438"><p>page content</p></td></tr><tr id="-8cbs3n_20439"><td id="-8cbs3n_20440"><p>ignore</p></td><td id="-8cbs3n_20441"><p>(file list)</p></td><td id="-8cbs3n_20442"><p>list of extensions to ignore</p></td></tr><tr id="-8cbs3n_20443"><td id="-8cbs3n_20444"><p>groups</p></td><td id="-8cbs3n_20445"><p>(path list)</p></td><td id="-8cbs3n_20446"><p>content groups</p></td></tr><tr id="-8cbs3n_20447"><td id="-8cbs3n_20448"><p>strip_chars</p></td><td id="-8cbs3n_20449"><p>(string)</p></td><td id="-8cbs3n_20450"><p>list of characters to omit</p></td></tr><tr id="-8cbs3n_20451"><td id="-8cbs3n_20452"><p>titles</p></td><td id="-8cbs3n_20453"><p>false / true</p></td><td id="-8cbs3n_20454"><p>include titles</p></td></tr><tr id="-8cbs3n_20455"><td id="-8cbs3n_20456"><p>tags</p></td><td id="-8cbs3n_20457"><p>false / true</p></td><td id="-8cbs3n_20458"><p>include tags</p></td></tr><tr id="-8cbs3n_20459"><td id="-8cbs3n_20460"><p>categories</p></td><td id="-8cbs3n_20461"><p>false / true</p></td><td id="-8cbs3n_20462"><p>include categories</p></td></tr><tr id="-8cbs3n_20463"><td id="-8cbs3n_20464"><p>filenames</p></td><td id="-8cbs3n_20465"><p>false / true</p></td><td id="-8cbs3n_20466"><p>include filenames</p></td></tr></tbody></table></div><p id="-8cbs3n_20467">For example, to include search for only blog posts and page excerpts, edit your configuration to resemble the following.</p><div class="tabs" id="-8cbs3n_20468" data-anchors="[-8cbs3n_20469,-8cbs3n_20476]"><div class="tabs__content" data-gtm="tab" id="-8cbs3n_20469" data-title="Jekyll"><p id="-8cbs3n_20470">In the <code class="code" id="-8cbs3n_20471">_jekyllfaces/config.md</code> file, update the <code class="code" id="-8cbs3n_20472">search</code> entries in the page metadata. <br><br></p><div class="code-block" data-lang="none" data-title="None">
+search:
+  scope: mixed   # &lt;========
+  posts: true    # &lt;========
+  pages: excerpt # &lt;========
+  ignore: [ &quot;.css&quot;, &quot;.js&quot;, &quot;.json&quot;, &quot;.xml&quot;, &quot;/404.html&quot;, &quot;/custom.html&quot;, &quot;/status.html&quot; ]
+  groups: [ &quot;/content/contributors/&quot;, &quot;/content/legal/&quot; ]
+  strip_chars: &quot;|'.,:;!?├─└…()[]#-/{}’!@#$%^&amp;*=+“”\\&lt;&gt;~`&quot;
+  titles: false
+  tags: false
+  categories: false
+  filenames: false
+
+</div></div><div class="tabs__content" data-gtm="tab" id="-8cbs3n_20476" data-title="Eleventy"><p id="-8cbs3n_20477">In the <code class="code" id="-8cbs3n_20478">_data/site.js</code> file, update the <code class="code" id="-8cbs3n_20479">search</code> entries in the <code class="code" id="-8cbs3n_20480">module.exports</code>. <br><br></p><div class="code-block" data-lang="none" data-title="None">
+module.exports = {
+  search: {
+    scope: &quot;mixed&quot;,   // &lt;========
+    posts: true,      // &lt;========
+    pages: &quot;excerpt&quot;, // &lt;========
+    ignore: [ &quot;.css&quot;, &quot;.js&quot;, &quot;.json&quot;, &quot;.xml&quot;, &quot;/404.html&quot;, &quot;/custom.html&quot;, &quot;/status.html&quot; ],
+    groups: [ &quot;/content/contributors/&quot;, &quot;/content/legal/&quot; ],
+    strip_chars: &quot;|'.,:;!?├─└…()[]#-/{}’!@#$%^&amp;*=+\&quot;\\&lt;&gt;~`&quot;,
+    titles: false,
+    tags: false,
+    categories: false,
+    filenames: false,
+  },
+  ...
+};
+</div></div></div></section><div class="last-modified">Last modified: 25 May 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="navbar.html" class="navigation-links__prev">Navbar</a><a href="modules.html" class="navigation-links__next">Modules</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b259/app.js"></script></body></html>

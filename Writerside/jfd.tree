@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="jfd"
+                 name="JekyllFaces Documentation"
+                 start-page="reference.md">
+    <toc-element topic="overview.md"/>
+    <toc-element topic="_features.md">
+        <toc-element topic="font-icons.md"/>
+        <toc-element topic="footer.md"/>
+        <toc-element topic="navbar.md"/>
+        <toc-element topic="search.md"/>
+    </toc-element>
+    <toc-element topic="_modules.md">
+        <toc-element topic="contributors.md"/>
+        <toc-element topic="book.md"/>
+    </toc-element>
+    <toc-element topic="reference.md"/>
+    <toc-element topic="_widgets.md">
+        <toc-element topic="signature.md"/>
+        <toc-element topic="quote.md"/>
+        <toc-element topic="carousel.md"/>
+        <toc-element topic="gists.md"/>
+        <toc-element topic="image.md"/>
+        <toc-element topic="hr.md"/>
+        <toc-element topic="countdown.md"/>
+    </toc-element>
+    <toc-element topic="_pages.md">
+        <toc-element topic="404-pages.md"/>
+        <toc-element topic="custom.md"/>
+        <toc-element topic="resume.md"/>
+    </toc-element>
+</instance-profile>
