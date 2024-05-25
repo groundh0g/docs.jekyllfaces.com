@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="jfd"
-                 name="Writerside"
+                 name="JekyllFaces"
                  start-page="overview.md">
     <toc-element topic="overview.md"/>
     <toc-element topic="_features.md">
