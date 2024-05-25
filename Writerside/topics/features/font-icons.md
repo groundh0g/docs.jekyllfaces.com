@@ -1,6 +1,6 @@
 # Font Icons
 
-JekyllFaces provides support for several popular font icon sets. The majority of which support loading the icons from a local copy that's stored on your site, or a copy that's served from one of several content delivery networks (CDNs).
+[JekyllFaces](https://jekyllfaces.com/) provides support for several popular font icon sets. The majority of which support loading the icons from a local copy that's stored on your site, or a copy that's served from one of several content delivery networks (CDNs).
 
 Supported font icon sets include:
 

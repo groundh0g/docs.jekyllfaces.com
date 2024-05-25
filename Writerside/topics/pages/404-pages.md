@@ -1,6 +1,6 @@
 # 404 Pages
 
-If you're tired of seeing the same old 404 error page for your GitHub Pages, JekyllFaces provides you with a canned selection of humorous(?) alternatives. 
+If you're tired of seeing the same old 404 error page for your GitHub Pages, [JekyllFaces](https://jekyllfaces.com/) provides you with a canned selection of humorous(?) alternatives. 
 
 ## Usage
 

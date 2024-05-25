@@ -4,7 +4,7 @@ If you're looking to create great static sites, possibly including a blog, book,
 
 ## What is JekyllFaces?
 
-Jekyll is great at managing blogs and static pages, but sometimes you want a little more interaction, or you want to present content other than a blog post or landing page. That’s where JekyllFaces comes in.
+Jekyll is great at managing blogs and static pages, but sometimes you want a little more interaction, or you want to present content other than a blog post or landing page. That’s where [JekyllFaces](https://jekyllfaces.com/) comes in.
 
 It provides GitHub-Pages-friendly extensions to make managing content for your projects easier to promote and manage. This is important if you're using GitHub Pages' built-in support for Jekyll, where the whitelist of Jekyll plugins are limited to a finite set.
 
@@ -12,7 +12,7 @@ It provides GitHub-Pages-friendly extensions to make managing content for your p
 
 ### Eleventy
 
-JekyllFaces also provides support for a Jekyll-like alternative&mdash;Eleventy. In essence, Eleventy (a.k.a. "11ty") is a Node.js implementation of Jekyll. If you're familiar with Jekyll, you'll be fluent in Eleventy in no time.
+[JekyllFaces](https://jekyllfaces.com/) also provides support for a Jekyll-like alternative&mdash;Eleventy. In essence, Eleventy (a.k.a. "11ty") is a Node.js implementation of Jekyll. If you're familiar with Jekyll, you'll be fluent in Eleventy in no time.
 
 ### Choosing
 

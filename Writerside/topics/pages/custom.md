@@ -1,6 +1,6 @@
 # Custom
 
-You aren't limited to the set of pages that JekyllFaces provides. You can create your own almost as easily as invoking a pre-built page.
+You aren't limited to the set of pages that [JekyllFaces](https://jekyllfaces.com/) provides. You can create your own almost as easily as invoking a pre-built page.
 
 <!-- 
 A How-to article is an action-oriented type of document.

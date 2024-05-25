@@ -1,6 +1,6 @@
 # Search
 
-If you want search for your Jekyll site, you'll have to roll your own. JekyllFaces provides support for searching your site's content out of the box.
+If you want search for your vanilla _Jekyll_ or _Eleventy_ site, you'll have to roll your own. But [JekyllFaces](https://jekyllfaces.com/) provides support for searching your site's content out of the box.
 
 
 ## Usage
@@ -8,18 +8,18 @@ If you want search for your Jekyll site, you'll have to roll your own. JekyllFac
 In your site configuration, there is an entry for every supported searchable content type. You can enable searching across all content with a `scope: all` entry, or use more granular settings.
 
 
-| Target      | Allowed Values         | Description                                         |
-|-------------|------------------------|-----------------------------------------------------|
-| scope       | all / none / mixed     | full search, no search, or use granular settings    | 
-| posts       | false / full / excerpt | post content (when scope is "mixed" or "all")       | 
-| pages       | false / full / excerpt | page content (when scope is "mixed" or "all")       |
-| titles      | false / true           | include titles (when scope is "mixed" or "all")     |
-| tags        | false / true           | include tags (when scope is "mixed" or "all")       |
-| categories  | false / true           | include categories (when scope is "mixed" or "all") |
-| filenames   | false / true           | include filenames (when scope is "mixed" or "all")  |
-| ignore      | (file list)            | list of extensions to ignore                        |
-| groups      | (path list)            | content groups                                      |
-| strip_chars | (string)               | list of characters to omit                          |
+| Target      | Allowed Values         | Description                                      |
+|-------------|------------------------|--------------------------------------------------|
+| scope       | all / none / mixed     | full search, no search, or use granular settings | 
+| posts       | false / full / excerpt | post content (when scope is "mixed")             | 
+| pages       | false / full / excerpt | page content (when scope is "mixed")             |
+| titles      | false / true           | include titles (when scope is "mixed")           |
+| tags        | false / true           | include tags (when scope is "mixed")             |
+| categories  | false / true           | include categories (when scope is "mixed")       |
+| filenames   | false / true           | include filenames (when scope is "mixed"         |
+| ignore      | (file list)            | list of extensions to ignore                     |
+| groups      | (path list)            | content groups                                   |
+| strip_chars | (string)               | list of characters to omit                       |
 
 
 
