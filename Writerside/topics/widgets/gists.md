@@ -1,3 +1,0 @@
-# Gists
-
-Start typing here...
