@@ -12,7 +12,6 @@ If so, you've come to the right place!
 > Use: _!&lsqb;Alt text&rsqb;(/image/path/photo.png)_
 > 
 > Not: _{% include image.widget file="foo.png" %}_
-{style="note"}
 
 
 ## Usage
@@ -27,6 +26,7 @@ docs/
  │   │   │   ├─ photo1.jpg
  │   │   │   └─ photo2.jpg
  │   │   ├─ book.txt
+ │   │   ├─ sample.txt
  │   │   ├─ chapter01.md
  │   │   ├─ chapter02.md
  │   │   └─ chapter03.md
@@ -35,9 +35,29 @@ docs/
  │   │   │   ├─ diagram1.png
  │   │   │   └─ diagram2.png
  │   │   ├─ book.txt
+ │   │   ├─ sample.txt
  │   │   ├─ chapter01.md
  │   │   ├─ chapter02.md
  │   │   └─ chapter03.md
 ```
 
 This structure is based heavily on the [LeanPub](https://leanpub.com/) folder structure. The content you create here should be a drop-in, copy-and-paste for LeanPub's source files.
+
+The `book.txt` and `sample.txt` files define which chapters will be included, as well as the order in which they will appear.
+
+>  **NOTE:** The `book.txt` and `sample.txt` files can be crafted by hand, or automatically generated.
+> 
+> If automatic generation is configured, `books.txt` and `sample.txt` will include all markdown files (sorted by filename), and `sample.txt` will contain only those files that have `.sample.` in their name.
+> 
+> For example:
+> 
+> ```
+>    010-a-new-day.sample.md
+>    020-the-brevity-of-life.md
+>    030-hellish-maelstrom.md
+>    040-thats-what-she-said.sample.md
+> ```
+
+### Configuration Options
+
+Blah, blah, blah ...
